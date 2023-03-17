@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>F's-hereExpress</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- heading part stats here -->
     <header>
       <!-- <h1>Logo</h1> -->
-      <nav>
+      <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+      <nav id="menu" class="hidden">
         <ul class="nav-upper flex-space-around">
           <li class="nav__list">
             <a href="/index.html" class="nav__link">Home</a>
@@ -45,15 +52,38 @@
           </li>
           <li class="nav__list">
             <a href="/cart.html" class="nav__link"
-              ><span><i class="fa-solid fa-cart-shopping"></i></span
-            >Cart-3 product - 180.5$</a>
+              ><span><i class="fa-solid fa-cart-shopping"></i></span>Cart-3
+              product - 180.5$</a
+            >
           </li>
         </ul>
       </nav>
     </header>
     <!-- heading part ends here -->
 
-    <h1>Welcome to my F'sExpress</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus commodi inventore vero nesciunt et modi, numquam quis. Voluptas laborum harum aperiam libero vero quas temporibus saepe aut. Accusamus sed pariatur, omnis nostrum dicta quos sequi. Ipsa itaque deserunt, repellat, distinctio maiores ut consectetur fuga asperiores eaque hic expedita tempora iure porro exercitationem, fugiat doloribus ab eveniet? Aliquam fuga, dicta voluptas odio vel atque possimus adipisci nihil hic, ipsam molestiae quaerat iusto aliquid recusandae deleniti magni dolorem mollitia labore temporibus nam ipsa? Labore dolore laboriosam consequatur tempore atque commodi nobis temporibus porro. Perspiciatis molestias ducimus rerum alias quos molestiae aliquam, deserunt laboriosam modi similique consequatur esse error obcaecati, quaerat inventore eveniet voluptatem, beatae voluptas consectetur autem vel! Sit iste suscipit dolorum soluta totam enim expedita? Perferendis beatae, in unde incidunt cupiditate sequi a ratione commodi odit tempora ea. Fuga, at. Voluptatum pariatur quae nobis nisi deleniti unde dolore repellat optio ducimus odio molestias aut voluptates voluptate saepe, modi qui architecto quisquam dignissimos laborum repudiandae eos impedit? Sint repellendus sunt cum accusantium! Numquam quas unde tempore nostrum ipsa sequi eveniet inventore dolor itaque veritatis, omnis officiis vel dolores perferendis corrupti praesentium aliquam accusamus ullam explicabo sint libero nihil totam, illo at? Expedita eos voluptas nisi veniam sunt consequuntur, totam, quia, a doloremque alias recusandae illo fugit distinctio suscipit? Neque rerum nulla aperiam delectus dicta, itaque a! Neque distinctio mollitia animi est magni voluptatem nobis cumque aut molestias rerum deserunt vero obcaecati minus dolores, asperiores rem delectus qui dolor? Laborum reprehenderit facere officiis voluptatum delectus laudantium, ut dolorum ratione mollitia accusamus, inventore dolorem iure minima ducimus odio nulla veniam amet, corporis tenetur. Quae dolor minima tempore vel ut totam est officiis similique impedit cum nobis iure quos saepe ullam esse, consequuntur placeat. Suscipit quos corporis enim? Ab quo earum accusantium iure totam nostrum.</p>
+    <main>
+      <h3>Home page</h3>
+    </main>
+
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Update for Newsletter: </label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          class="footer__input"
+          placeholder="Enter your mail address"
+        />
+        <button class="btn btn-subscribe">subscribe</button>
+      </div>
+      <div>
+        <p>&copy; Copyright 2023</p>
+      </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <script src="./script/index.js"></script>
   </body>
 </html>
